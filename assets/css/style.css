@@ -9,39 +9,50 @@ nav {
 
 p {
 	line-height: 150%;
-	clear: left;
 }
 
 form {
 	line-height: 150%
 }
 
-h2, h3 {
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h1, h2 {
 	color: #4aaaa5;
 	font-family: "Georgia", Times, Times New Roman, serif;
+	font-weight: bold;
 	border-bottom: 2px solid #dddddd;
 	padding-bottom: 20px
 }
 
-h1 {
-
+#logo {
 	color: #ffffff;
 	background-color: #4aaaa5;
 	font-family: "Georgia", Times, Times New Roman, serif;
-	width: 280px;
+	font-size: 24px;
+	width: 180px;
 	padding: 20px;
-	margin-left: 80px;
-	float: left;
+	position: relative;
+	left: 80px;
 }
 
 header {
-	background-color: #ffffff;
-	height: 160px;
+	background-color: black;
+	height: 60px;
 	margin-top: 0;
+	margin-bottom: 40px;
 }
 
 nav {
-	float: left;
+	position: absolute;
+	right: 220px;
+	top: 20px;
 }
 
 .container {
@@ -72,7 +83,8 @@ nav {
 #profile-image {
 	width: 150px;
 	height: 150px;
-	margin-right: 20px
+	margin-right: 20px;
+	clear: both;
 }
 
 .portfolio-image {
