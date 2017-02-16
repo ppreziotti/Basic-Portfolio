@@ -1,0 +1,101 @@
+body {
+	color: #777777;
+	box-sizing: border-box;
+}
+
+nav {
+	color: #777777;
+}
+
+p {
+	line-height: 150%;
+	clear: left;
+}
+
+form {
+	line-height: 150%
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 20px
+}
+
+h1 {
+
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	width: 280px;
+	padding: 20px;
+	margin-left: 80px;
+	float: left;
+}
+
+header {
+	background-color: #ffffff;
+	height: 160px;
+	margin-top: 0;
+}
+
+nav {
+	float: left;
+}
+
+.container {
+	background-image: url("../images/concrete_seamless.png");
+}
+
+.content {
+	width: 650px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	float: left;
+	margin-left: 80px;
+	margin-right: 40px
+}
+
+#sidebar {
+	width: 270px;
+	border: 1px solid #dddddd;
+	float: left;
+	padding: 20px;
+}
+
+.socialMedia {
+	width: 70px;
+	height: 70px;
+}
+
+#profile-image {
+	width: 150px;
+	height: 150px;
+	margin-right: 20px
+}
+
+.portfolio-image {
+	margin: 20px;
+	float: left;
+}
+
+#submit-button {
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	color: #777777;
+	background-color: #666666;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	padding: 30px;
+	border-top: 5px solid #4aaaa5;
+}
