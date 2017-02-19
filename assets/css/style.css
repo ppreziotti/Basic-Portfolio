@@ -89,8 +89,6 @@ input[type=submit] {
 .portfolio-image {
 	float: left;
 	margin: 10px 40px 40px 0px;
-	width: 285px;
-	height: 210px;
 	position: relative;
 }
 
@@ -101,13 +99,13 @@ input[type=submit] {
 	background-color: #4aaaa5;
 	position: absolute;
 	bottom: 10px;
-	width: 285px;
+	width: 100%;
 	padding: 20px 0px 20px 0px;
 }
 
 #content {
 	width: 650px;
-	padding: 30px 25px 30px 25px;
+	padding: 30px 20px 30px 20px;
 	border: 1px solid #dddddd;
 	float: left;
 	margin: 0px 30px 30px 80px;
