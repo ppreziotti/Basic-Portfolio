@@ -7,19 +7,24 @@ body {
 	color: #777777;
 	box-sizing: border-box;
 	background-image: url("../images/concrete_seamless.png");
+}	
+
+header {
+	background-color: #ffffff;
+	height: 70px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #cdd;
+	position: relative;
+	width: 100%;
 }
 
 nav {
-	color: #777777;
-}
-
-p {
-	line-height: 150%;
 	float: left;
-}
-
-form {
-	line-height: 150%;
+	position: absolute;
+	right: 325px;
+	top: 25px;
+	word-spacing: 10px;
 }
 
 h1 {
@@ -27,7 +32,7 @@ h1 {
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 h1, h2 {
@@ -39,6 +44,95 @@ h1, h2 {
 	margin-bottom: 20px;
 }
 
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+footer {
+	color: #fff;
+	background-color: #666666;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	padding: 35px;
+	border-top: 5px solid #4aaaa5;
+	margin-top: 30px;
+}
+
+p {
+	line-height: 150%;
+}
+
+form {
+	line-height: 150%;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 5px;
+	margin-right: 10px;
+	color: #777777;
+}
+
+input[type=submit] {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 20px 10px 20px;
+}
+
+.container {
+	margin-bottom: 30px;
+}
+
+.portfolio-image {
+	float: left;
+	margin: 10px 40px 40px 0px;
+	width: 285px;
+	height: 210px;
+	position: relative;
+}
+
+.portfolio-text {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 10px;
+	width: 285px;
+	padding: 20px 0px 20px 0px;
+}
+
+#content {
+	width: 650px;
+	padding: 30px 25px 30px 25px;
+	border: 1px solid #dddddd;
+	float: left;
+	margin: 0px 30px 30px 80px;
+	background-color: #ffffff;
+}
+
+#sidebar {
+	border: 1px solid #dddddd;
+	float: left;
+	padding: 25px 20px 30px 20px;
+	background-color: #ffffff;
+}
+
+#github, #linkedin, #stackoverflow {
+	width: 65px;
+	height: 65px;
+}	
+
+#profile-image {
+	width: 140px;
+	height: 140px;
+	margin-right: 20px;
+	float: left;
+}
+
 #logo {
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -46,87 +140,9 @@ h1, h2 {
 	font-size: 24px;
 	font-weight: bold;
 	width: 210px;
-	padding: 20px;
-	text-align: center;
-	margin-left: 80px;
-	margin-bottom: 0px;
-}
-
-header {
-	background-color: #ffffff;
-	height: 60px;
-	margin-top: 0;
-	margin-bottom: 40px;
-}
-
-nav {
-	position: absolute;
-	right: 220px;
-	top: 20px;
-}
-
-.container {
-	
-}
-
-.content {
-	width: 650px;
-	padding: 20px;
-	border: 1px solid #dddddd;
-	float: left;
-	margin-left: 80px;
-	margin-right: 40px;
-	background-color: #ffffff;
-}
-
-#sidebar {
-	width: 270px;
-	border: 1px solid #dddddd;
-	float: left;
-	padding: 20px;
-	background-color: #ffffff;
-}
-
-.socialMedia {
-	width: 70px;
-	height: 70px;
-}
-
-#profile-image {
-	width: 150px;
-	height: 150px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-}
-
-.portfolio-image {
-	margin: 20px;
-	float: left;
-}
-
-.portfolio-text {
-	color: #ffffff;
-	background-color: #4aaaa5;
-	text-align: center;
-	padding: 20px;
-}
-
-#submit-button {
-	color: #ffffff;
-	background-color: #4aaaa5;
-}
-
-a {
-	text-decoration: none;
-}
-
-footer {
-	color: #777777;
-	background-color: #666666;
-	width: 100%;
+	padding: 24px;
 	text-align: center;
 	position: absolute;
-	bottom: 0;
-	padding: 30px;
-	border-top: 5px solid #4aaaa5;
+	left: 80px;
+	bottom: 0px;
 }
